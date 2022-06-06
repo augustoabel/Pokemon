@@ -46,7 +46,7 @@ Ferramentas utilizadas nesse projeto:
       <a href="#">
         <img src="https://avatars.githubusercontent.com/u/58345704?s=400&u=b9eb4d4441dad2370c5f9daa4ad4722269458d28&v=4" width="100px;" alt="Foto do Augsto Abel no github"/><br>
         <sub>
-          <b>Bernardo Junior</b>
+          <b>Augusto Abel</b>
         </sub>
       </a>
        </td>
