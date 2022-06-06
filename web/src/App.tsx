@@ -1,9 +1,23 @@
-import Navbar from "./components/Navbar"
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import Navbar from "./pages/Navbar"
+import Content from "./pages/Content"
+import Pokemons from "./pages/Pokemons"
+
 
 function App() {
 
   return (
-    <Navbar />
+    <>
+      <BrowserRouter>
+        <Navbar />
+          <Routes>
+            <Route path="/" element={<Content />}/>
+            <Route path="/pokemons" element={<Pokemons />}/>
+            <Route path="/contact" element={<Content />}/>
+        </Routes>
+      </BrowserRouter>
+    </>
   )
 }
 
